@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import UnderConstruction from '../../public/danger-hard-hat.jpg'
+import UnderConstruction from '../../public/danger-hard-hat.png'
 
 const Learn: React.FC<Props> = () => {
   return (

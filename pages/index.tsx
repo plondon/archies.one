@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           <Link href="/learn">
             <a className={styles.card}>
               <h2>Learn &rarr;</h2>
-              <p>Learn about Achie&#8217;s website!</p>
+              <p>Learn about Archie&#8217;s website!</p>
             </a>
           </Link>
         </div>

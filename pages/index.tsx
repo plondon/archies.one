@@ -1,7 +1,8 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -14,24 +15,25 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className="text-6xl text-transparent bg-gradient-to-r bg-clip-text from-orange-400 via-yellow-300 to-blue-700">
-          Welcome to <a href="https://nextjs.org" className="">Archies Website!</a>
+          Welcome to{" "}
+          <a href="https://nextjs.org" className="">
+            Archies Website!
+          </a>
         </h1>
 
-
         <div className={styles.grid}>
-          
-
-          <a href="/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Achie&#8217;s website!</p>
-          </a>
-
+          <Link href="/learn">
+            <a className={styles.card}>
+              <h2>Learn &rarr;</h2>
+              <p>Learn about Achie&#8217;s website!</p>
+            </a>
+          </Link>
         </div>
 
-        <p className='text-xl py-6'>
-          SALE    ON   MAY 12 2022 EVERYTHING     MADE   OUT   OF   PAPER
+        <p className="text-xl py-6">
+          SALE ON MAY 12 2022 EVERYTHING MADE OUT OF PAPER
         </p>
-        <p className='text-3xl capitalize'>at carroll park,BK,NY</p>
+        <p className="text-3xl capitalize">at carroll park,BK,NY</p>
       </main>
 
       <footer className={styles.footer}>
@@ -40,14 +42,14 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

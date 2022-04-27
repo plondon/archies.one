@@ -6,9 +6,9 @@ const Learn: React.FC<Props> = () => {
   return (
     <div className='text-center text-2xl pt-6 max-w-xl m-auto'>
         <p>
-            Archie's website should updated every 1 or 2 weeks with new things. For example photos.
+            Archie&#8217;s website should updated every 1 or 2 weeks with new things. For example photos.
         </p>
-        <p className='pt-2'>Archie's website is currently under construction. It will be updated when it's finished.</p>
+        <p className='pt-2'>Archie&#8217;s website is currently under construction. It will be updated when it's finished.</p>
         <div className='mt-6'>
 
         <Image src={UnderConstruction} width='325px' height='325px' />

@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
           <a href="/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
-            <p>Learn about Achie's website!</p>
+            <p>Learn about Achie&#8217;s website!</p>
           </a>
 
         </div>

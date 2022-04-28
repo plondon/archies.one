@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
+import * as Clouds from "../public/clouds.jpg";
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -34,6 +36,9 @@ const Home: NextPage = () => {
           SALE ON MAY 12 2022 EVERYTHING MADE OUT OF PAPER
         </p>
         <p className="text-3xl capitalize">at carroll park,BK,NY</p>
+        <div className="relative w-72 h-48 mt-8">
+          <Image src={Clouds} layout='fill' objectFit="contain" />
+        </div>
       </main>
 
       <footer className={styles.footer}>

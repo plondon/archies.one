@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         </div>
 
         <p className="text-xl py-6">
-          SALE ON MAY 12 2022 EVERYTHING MADE OUT OF PAPER
+          SALE ON MAY 15 2022 EVERYTHING MADE OUT OF PAPER
         </p>
         <p className="text-3xl capitalize">at carroll park,BK,NY</p>
         <div className="relative w-72 h-48 mt-8">

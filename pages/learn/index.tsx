@@ -1,23 +1,54 @@
-import Image from 'next/image'
-import React from 'react'
-import UnderConstruction from '../../public/danger-hard-hat.png'
+import Image from "next/image";
+import React from "react";
+import styles from "../../styles/Home.module.css";
+import Link from "next/link";
 
 const Learn: React.FC<Props> = () => {
   return (
-    <div className='text-center text-2xl pt-6 max-w-xl m-auto'>
-        <p>
-            Archie&#8217;s website should updated every 1 or 2 weeks with new things. For example photos.
-        </p>
-        <p className='pt-2'>Archie&#8217;s website is currently under construction. It will be updated when it&#8217;s finished.</p>
-        <div className='mt-6 relative h-48 w-72 m-auto'>
-            <Image src={UnderConstruction} layout='fill' objectFit='contain' />
+    <main className={styles.main}>
+      <h1 className="text-6xl text-transparent bg-gradient-to-r bg-clip-text from-orange-400 via-yellow-300 to-blue-700">
+        Items for Sale
+      </h1>
+      <div className="flex w-full flex-wrap justify-center mt-10 gap-8">
+        <div className="w-1/4">
+          {/* <Link href={`/videos/${'airplane-shoe-movie'}`}>
+            <a> */}
+              <Image
+                alt="airplane"
+                src={'/items/airplane-shoe.jpg'}
+                width={3}
+                height={4}
+                layout="responsive"
+              />
+              <div>
+                <h2>Airplane Shoe (2022)</h2>
+                <p className="text-sm text-gray-500">Archie Green</p>
+              </div>
+            {/* </a>
+          </Link> */}
         </div>
-    </div>
-  )
-}
+        <div className="w-1/4">
+          {/* <Link href={`/videos/${'drill-drawing'}`}>
+            <a> */}
+              <Image
+                alt="drill"
+                src={'/items/drill-drawing.jpeg'}
+                width={3}
+                height={4}
+                layout="responsive"
+              />
+              <div>
+                <h2>Drill Drawing (2022)</h2>
+                <p className="text-sm text-gray-500">Archie Green</p>
+              </div>
+            {/* </a>
+          </Link> */}
+        </div>
+      </div>
+    </main>
+  );
+};
 
-type Props = {
-  
-}
+type Props = {};
 
-export default Learn
+export default Learn;

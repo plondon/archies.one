@@ -9,6 +9,9 @@ const getSrc = (src: string) => {
   if (src === "drill-drawing") {
     return "https://res.cloudinary.com/dqki6kci3/video/upload/v1652101204/wyuh3mpc5bumwsrllos8.mov";
   }
+  if (src === "archie-monkey-may-10") {
+    return "https://res.cloudinary.com/dqki6kci3/video/upload/v1652234056/qkhld25q24tp3vkvfgal.mov"
+  }
 };
 
 const Videos: React.FC<Props> = () => {

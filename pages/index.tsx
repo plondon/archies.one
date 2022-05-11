@@ -36,6 +36,12 @@ const Home: NextPage = () => {
               <p>View handmade items by Archie!</p>
             </a>
           </Link>
+          <Link href="/videos-of-archie">
+            <a className={styles.card}>
+              <h2>Videos of Archie &rarr;</h2>
+              <p>View videos of Archie being crazy!</p>
+            </a>
+          </Link>
         </div>
 
         <p className="text-xl py-6">

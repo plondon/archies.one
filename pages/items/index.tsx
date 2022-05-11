@@ -3,7 +3,7 @@ import React from "react";
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
 
-const Learn: React.FC<Props> = () => {
+const Items: React.FC<Props> = () => {
   return (
     <main className={styles.main}>
       <h1 className="text-6xl text-transparent bg-gradient-to-r bg-clip-text from-orange-400 via-yellow-300 to-blue-700">
@@ -23,6 +23,7 @@ const Learn: React.FC<Props> = () => {
               <div>
                 <h2>Airplane Shoe (2022)</h2>
                 <p className="text-sm text-gray-500">Archie Green</p>
+                <p className="text-sm text-gray-500">$20.00</p>
               </div>
             </a>
           </Link>
@@ -40,9 +41,24 @@ const Learn: React.FC<Props> = () => {
               <div>
                 <h2>Drill Drawing (2022)</h2>
                 <p className="text-sm text-gray-500">Archie Green</p>
+                <p className="text-sm text-gray-500">$15.99</p>
               </div>
             </a>
           </Link>
+        </div>
+        <div className="w-1/4">
+              <Image
+                alt="diamonds"
+                src={'/items/diamonds.jpg'}
+                width={3}
+                height={4}
+                layout="responsive"
+              />
+              <div>
+                <h2>Diamonds (Found) (2022)</h2>
+                <p className="text-sm text-gray-500">Archie Green</p>
+                <p className="text-sm text-gray-500">$1000.00 (1  Jewel $700.00)</p>
+              </div>
         </div>
       </div>
     </main>
@@ -51,4 +67,4 @@ const Learn: React.FC<Props> = () => {
 
 type Props = {};
 
-export default Learn;
+export default Items;

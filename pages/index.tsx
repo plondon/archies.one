@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
-import * as Clouds from "../public/clouds.jpg";
+import * as Lawn from "../public/lawn-mowing.jpeg";
 
 const Home: NextPage = () => {
   return (
@@ -44,12 +44,11 @@ const Home: NextPage = () => {
           </Link>
         </div>
 
-        <p className="text-xl py-6">
-          SALE ON MAY 15 2022 EVERYTHING MADE OUT OF PAPER
+        <p className="text-2xl py-6 text-green-500">
+          LAWN MOWING $45.00 / LAWN
         </p>
-        <p className="text-3xl capitalize">at carroll park,BK,NY</p>
         <div className="relative w-72 h-48 mt-8">
-          <Image src={Clouds} layout="fill" objectFit="contain" />
+          <Image src={Lawn} layout="fill" objectFit="contain" />
         </div>
       </main>
     </div>

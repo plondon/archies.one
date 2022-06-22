@@ -45,11 +45,15 @@ const Home: NextPage = () => {
         </div>
 
         <p className="text-2xl py-6 text-green-500">
-          LAWN MOWING $45.00 / LAWN
+          LAWN MOWING $32.99 / LAWN
         </p>
         <div className="relative w-72 h-48 mt-8">
           <Image src={Lawn} layout="fill" objectFit="contain" />
         </div>
+        <p className="text-2xl py-2 text-blue-600">DISCOUNTS:</p>
+        <p className="text-yellow-300">if you live in Carrol Gardens $5 off</p>
+        <p className="text-yellow-300">if your lawn gets mowed 12 times your 13th is free</p>
+        <p className="text-yellow-300">if a tree/bush/plant gets knocked down - $10 discount</p>
       </main>
     </div>
   );

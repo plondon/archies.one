@@ -11,24 +11,6 @@ const Items: React.FC<Props> = () => {
       </h1>
       <div className="flex w-full flex-wrap justify-center mt-10 gap-8">
         <div className="w-1/4">
-          <Link href={`/videos/${'airplane-shoe-movie'}`}>
-            <a>
-              <Image
-                alt="airplane"
-                src={'/items/airplane-shoe.jpg'}
-                width={3}
-                height={4}
-                layout="responsive"
-              />
-              <div>
-                <h2>Airplane Shoe (2022)</h2>
-                <p className="text-sm text-gray-500">Archie Green</p>
-                <p className="text-sm text-gray-500">$20.00</p>
-              </div>
-            </a>
-          </Link>
-        </div>
-        <div className="w-1/4">
           <Link href={`/videos/${'drill-drawing'}`}>
             <a>
               <Image

@@ -14,6 +14,11 @@ const Home: NextPage = () => {
         <title>Archie&apos;s Website</title>
         <meta name="description" content="Archie's Website" />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          defer
+          data-domain="archies.one"
+          src="https://plausible.io/js/script.js"
+        ></script>
       </Head>
 
       <main className={styles.main}>

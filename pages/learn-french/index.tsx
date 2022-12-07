@@ -5,12 +5,12 @@ const LearnFrench: React.FC<Props> = () => {
     <div>
       <div className="flex mt-4 justify-center flex-col items-center">
         <h2 className="text-2xl">
-          hello welcome to archie's french dictionary
+          hello welcome to archie&apos;s french dictionary
         </h2>
       </div>
       <div className="ml-8">
         <ul>
-          <li>today's subject is animals 12/7/22</li>
+          <li>today&apos;s subject is animals 12/7/22</li>
           <li>dog=chien pronounced: she-n</li>
           <li>cat=chat pronounced:sha</li>
           <li>mouse=souris pronounced: suh-ree</li>

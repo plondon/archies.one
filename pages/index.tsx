@@ -55,8 +55,16 @@ const Home: NextPage = () => {
             </a>
           </Link>
         </div>
+        <Link href="/learn-french">
+          <a>
+            <div className="border rounded-md p-4 bg-orange-400">
+              <h3 className="text-3xl">SUBJECT OF THE DAY: ANIMALS</h3>
+              <h3 className="text-3xl">WORD OF THE DAY: FISH</h3>
+            </div>
+          </a>
+        </Link>
         <div>
-          <h3 className="text-3xl animate-text from-red-400  to-green-500 text-transparent bg-gradient-to-r bg-clip-text">
+          <h3 className="text-3xl mt-10  animate-text from-red-400  to-green-500 text-transparent bg-gradient-to-r bg-clip-text">
             HAPPY HOLIDAYS!!!
           </h3>
         </div>

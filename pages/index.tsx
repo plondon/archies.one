@@ -51,7 +51,7 @@ const Home: NextPage = () => {
           <Link href="/learn-french">
             <a className={styles.card}>
               <h2>Learn French with Archie &rarr;</h2>
-              <p>Here's an English to French dictionary. Updated daily!</p>
+              <p>Here&apos;s an English to French dictionary. Updated daily!</p>
             </a>
           </Link>
         </div>

@@ -48,6 +48,12 @@ const Home: NextPage = () => {
               <p>View videos of Archie being crazy!</p>
             </a>
           </Link>
+          <Link href="/learn-french">
+            <a className={styles.card}>
+              <h2>Learn French with Archie &rarr;</h2>
+              <p>Here's an English to French dictionary. Updated daily!</p>
+            </a>
+          </Link>
         </div>
         <div>
           <h3 className="text-3xl animate-text from-red-400  to-green-500 text-transparent bg-gradient-to-r bg-clip-text">

@@ -6,6 +6,7 @@ import styles from "../styles/Home.module.css";
 
 import * as Lawn from "../public/lawn-mowing.jpeg";
 import * as Snow from "../public/snow-shoveling.jpeg";
+import * as Fish from "../public/fish.jpg";
 
 const Home: NextPage = () => {
   return (
@@ -62,6 +63,9 @@ const Home: NextPage = () => {
               <h3 className="text-3xl">WORD OF THE DAY: FISH</h3>
             </div>
           </a>
+        </Link>
+        <Link href="/word-of-the-day">
+          <img src={"fish.jpg"} className="h-48" />
         </Link>
         <div>
           <h3 className="text-3xl mt-10  animate-text from-red-400  to-green-500 text-transparent bg-gradient-to-r bg-clip-text">

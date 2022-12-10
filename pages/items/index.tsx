@@ -11,11 +11,11 @@ const Items: React.FC<Props> = () => {
       </h1>
       <div className="flex w-full flex-wrap justify-center mt-10 gap-8">
         <div className="w-1/4">
-          <Link href={`/videos/${'drill-drawing'}`}>
+          <Link href={`/videos/${"drill-drawing"}`}>
             <a>
               <Image
                 alt="drill"
-                src={'/items/drill-drawing.jpg'}
+                src={"/items/drill-drawing.jpg"}
                 width={3}
                 height={4}
                 layout="responsive"
@@ -24,6 +24,24 @@ const Items: React.FC<Props> = () => {
                 <h2>Drill Drawing (2022) - SOLD</h2>
                 <p className="text-sm text-gray-500">Archie Green</p>
                 <p className="text-sm text-gray-500 line-through">$15.99</p>
+              </div>
+            </a>
+          </Link>
+        </div>
+        <div className="w-1/4">
+          <Link href={`/videos/${"drill-drawing"}`}>
+            <a>
+              <Image
+                alt="drill"
+                src={"/items/drill-drawing-uhoh.jpg"}
+                width={3}
+                height={4}
+                layout="responsive"
+              />
+              <div>
+                <h2>Drill Drawing (2022) - SOLD</h2>
+                <p className="text-lg text-gray-500">Archie Green</p>
+                <p className="text-lg text-gray-500 line-through">$15.99</p>
               </div>
             </a>
           </Link>
